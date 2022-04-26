@@ -1,22 +1,58 @@
 body {
-  height: auto;
-  width: 100%;
+  width: calc(100);
+}
+
+header {
+  background-color: black;
+}
+
+.Topbar {
+  background-color: inherit;
+  display: grid;
+  grid-auto-flow: column;
 }
 
 .Title {
-  color: black;
+  color: lightgray;
   text-align: center;
   font-style: times;
+  font-size: 100%;
 }
+
+.buttons {
+  font-size: 90%;
+  font-style: times;
+  border: none;
+  background-color: transparent;
+  color: lightgray;
+}
+
+.buttons a {
+  text-decoration: 0;
+}
+
+.buttons a:hover {
+  text-decoration: none;
+}
+
+.buttons:focus {
+  outline-style: none;
+}
+
+.Searchbar {
+  color: lightgray;
+  font-size: 80%;
+  width: 80%;
+  height: 87%;
+}
+
 .img {
   border: 10px solid;
   margin: 5%;
-  border-radius: 3%;
+  border-radius: 5%;
   display: flex;
-
   flex-wrap: wrap;
   flex-direction: row;
-
   justify-content: center;
   align-items: center;
   flex-grow: inherit;
@@ -25,5 +61,12 @@ body {
   border: 5px solid black;
   border-radius: 10%;
   margin: 1%;
-  width: max-content;
+  min-width: 45%;
+  max-width: 200px;
+}
+
+.Comments {
+  background-color: darkslategray;
+  display: flex;
+  width: 100%;
 }
