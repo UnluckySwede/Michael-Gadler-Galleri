@@ -1,9 +1,14 @@
 body {
   width: calc(100);
+  height: calc(100);
 }
 
 header {
   background-color: black;
+}
+
+footer {
+  background-color: lightgray;
 }
 
 .Topbar {
@@ -16,11 +21,11 @@ header {
   color: lightgray;
   text-align: center;
   font-style: times;
-  font-size: 100%;
+  font-size: 3vmax;
 }
 
 .buttons {
-  font-size: 90%;
+  font-size: 2vmax;
   font-style: times;
   border: none;
   background-color: transparent;
@@ -40,10 +45,12 @@ header {
 }
 
 .Searchbar {
-  color: lightgray;
-  font-size: 80%;
+  color: black;
+  background-color: lightgray;
+  font-size: 2vmax;
+  margin: 5%;
   width: 80%;
-  height: 87%;
+  min-height: 5ch;
 }
 
 .img {
@@ -66,7 +73,20 @@ header {
 }
 
 .Comments {
-  background-color: darkslategray;
+  background-color: lightgray;
   display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-content: flex-end;
   width: 100%;
+}
+
+.TextContent {
+  background-color: white;
+  font-size: 3ch;
+  width: 80%;
+  min-width: 20%;
+  margin: 5%;
+  min-height: min-content;
+  max-height: min-content;
 }
