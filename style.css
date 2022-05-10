@@ -13,6 +13,7 @@ footer {
 
 .Topbar {
   background-color: inherit;
+  height: fit-content;
   display: grid;
   grid-auto-flow: column;
 }
@@ -21,11 +22,12 @@ footer {
   color: lightgray;
   text-align: center;
   font-style: times;
-  font-size: 3vmax;
+  font-size: 1.5vmax;
+  padding-top: 4%;
 }
 
 .buttons {
-  font-size: 2vmax;
+  font-size: 1.5vmax;
   font-style: times;
   border: none;
   background-color: transparent;
@@ -47,10 +49,10 @@ footer {
 .Searchbar {
   color: black;
   background-color: lightgray;
-  font-size: 2vmax;
+  font-size: 1.5vmax;
   margin: 5%;
   width: 80%;
-  min-height: 5ch;
+  min-height: 3ch;
 }
 
 .img {
@@ -76,7 +78,7 @@ footer {
   background-color: lightgray;
   display: flex;
   justify-content: center;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   align-content: flex-end;
   width: 100%;
 }
@@ -84,9 +86,21 @@ footer {
 .TextContent {
   background-color: white;
   font-size: 3ch;
-  width: 80%;
-  min-width: 20%;
-  margin: 5%;
+  width: 85%;
+  margin: 7%;
   min-height: min-content;
   max-height: min-content;
+}
+
+.Profile {
+  width: 100vw;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+}
+
+.ProfilePictures {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
 }
