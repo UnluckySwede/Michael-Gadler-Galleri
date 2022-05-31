@@ -108,7 +108,7 @@ footer {
 
 .Information {
   margin-top: 10%;
-  width: 100vw;
+  width: 100%;
   height: fit-content;
   background-color: rgba(46, 46, 46, 0.443);
   display: flex;
